@@ -28,4 +28,4 @@ def gen_table(db, col):
     table.format = True
     return(table.get_html_string())
 
-print(gen_table("projects", "Lon"))
+# print(gen_table("projects", "Lon"))
