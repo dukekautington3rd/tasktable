@@ -26,6 +26,7 @@ def gen_table(db, col):
     table.preserve_internal_border = True
     table.add_rows(tasks)
     table.format = True
+    table.align["Task"] = "l"
     return(table.get_html_string())
 
 # print(gen_table("projects", "Lon"))
