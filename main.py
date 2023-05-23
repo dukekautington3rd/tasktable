@@ -27,4 +27,4 @@ def hello_world():
 #         return "Nope!  Don't forget to send your secret as a parameter"
     
 if __name__ == '__main__':
-    app.run(port=8118)
+    app.run(host='0.0.0.0', port=8118)
