@@ -29,4 +29,6 @@ def gen_table(db, col):
     table.align["Task"] = "l"
     return(table.get_html_string())
 
+
+print(get_data("projects", "Lon"))
 # print(gen_table("projects", "Lon"))
